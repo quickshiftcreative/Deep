@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ============ SEO: change title & description ============ -->
+  <title>Apex Consulting | Business Strategy & Growth Advisory</title>
+  <meta name="description" content="Apex Consulting helps businesses grow with practical strategy, operations and financial advisory.">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Our styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAVBAR ===================== -->
+  <header id="header">
+    <div class="container nav-wrap">
+      <!-- LOGO: change the text (or replace with an <img>) -->
+      <a href="#home" class="logo">Apex<span>.</span>Consulting</a>
+
+      <nav id="nav">
+        <ul>
+          <!-- href must match the section id below -->
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#process" class="nav-link">Process</a></li>
+          <li><a href="#testimonials" class="nav-link">Clients</a></li>
+          <li><a href="#contact" class="btn btn-small">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile menu button -->
+      <button id="menu-toggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- ===================== HOME / HERO ===================== -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <p class="eyebrow">Trusted Business Consultant</p>
+      <h1>We turn complex business problems into <span class="highlight">clear growth plans</span></h1>
+      <p class="hero-text">
+        Strategy, operations and financial advisory for startups and growing companies.
+        Practical advice, measurable results.
+      </p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn">Book Free Consultation</a>
+        <a href="#services" class="btn btn-outline">Our Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== STATS (numbers count up) ===================== -->
+  <!-- data-target = the final number. Change freely. -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat"><h3><span class="counter" data-target="12">0</span>+</h3><p>Years Experience</p></div>
+      <div class="stat"><h3><span class="counter" data-target="250">0</span>+</h3><p>Projects Delivered</p></div>
+      <div class="stat"><h3><span class="counter" data-target="120">0</span>+</h3><p>Happy Clients</p></div>
+      <div class="stat"><h3><span class="counter" data-target="98">0</span>%</h3><p>Client Satisfaction</p></div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div class="about-img reveal">
+        <!-- Replace with your own photo: put the file in an "images" folder and change src -->
+        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=900&q=80" alt="Consulting team meeting">
+        <div class="exp-badge"><strong>12+</strong><span>Years of Experience</span></div>
+      </div>
+
+      <div class="about-text reveal">
+        <p class="eyebrow">About Us</p>
+        <h2 class="section-title">Your partner in sustainable business growth</h2>
+        <p>
+          We are a team of experienced consultants who work closely with business owners
+          to find problems, build strategies and execute them. No jargon, no long reports
+          that sit on a shelf, only actions that move the numbers.
+        </p>
+        <ul class="check-list">
+          <li><i class="fa-solid fa-circle-check"></i> Industry-experienced advisors</li>
+          <li><i class="fa-solid fa-circle-check"></i> Customised plans, not templates</li>
+          <li><i class="fa-solid fa-circle-check"></i> Transparent pricing &amp; timelines</li>
+        </ul>
+        <a href="#contact" class="btn">Talk to an Expert</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section id="services" class="section section-light">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">What We Do</p>
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-sub">Everything you need to plan, run and grow your business.</p>
+      </div>
+
+      <div class="cards">
+        <!-- To ADD a service: copy one <div class="card"> block and edit it.
+             Icons: https://fontawesome.com/icons (use class like "fa-solid fa-xxx") -->
+        <div class="card reveal">
+          <div class="icon"><i class="fa-solid fa-chess"></i></div>
+          <h3>Business Strategy</h3>
+          <p>Clear roadmap, market positioning and growth plans built around your goals.</p>
+        </div>
+
+        <div class="card reveal">
+          <div class="icon"><i class="fa-solid fa-gears"></i></div>
+          <h3>Operations Improvement</h3>
+          <p>Streamline processes, cut waste and improve team productivity.</p>
+        </div>
+
+        <div class="card reveal">
+          <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
+          <h3>Financial Advisory</h3>
+          <p>Budgeting, cost control and funding guidance for healthy cash flow.</p>
+        </div>
+
+        <div class="card reveal">
+          <div class="icon"><i class="fa-solid fa-bullhorn"></i></div>
+          <h3>Marketing &amp; Sales</h3>
+          <p>Attract the right customers and convert them with a proven sales system.</p>
+        </div>
+
+        <div class="card reveal">
+          <div class="icon"><i class="fa-solid fa-users"></i></div>
+          <h3>Team &amp; Leadership</h3>
+          <p>Hiring, training and leadership coaching to build a strong team.</p>
+        </div>
+
+        <div class="card reveal">
+          <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3>Digital Transformation</h3>
+          <p>Choose and implement the right tools to modernise your business.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROCESS ===================== -->
+  <section id="process" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">How We Work</p>
+        <h2 class="section-title">A simple 4-step process</h2>
+      </div>
+
+      <div class="steps">
+        <div class="step reveal"><span class="step-no">01</span><h3>Discover</h3><p>We understand your business, goals and challenges.</p></div>
+        <div class="step reveal"><span class="step-no">02</span><h3>Plan</h3><p>We design a clear, customised strategy with milestones.</p></div>
+        <div class="step reveal"><span class="step-no">03</span><h3>Execute</h3><p>We work with your team to put the plan into action.</p></div>
+        <div class="step reveal"><span class="step-no">04</span><h3>Grow</h3><p>We track results and keep improving over time.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS (slider) ===================== -->
+  <section id="testimonials" class="section section-dark">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Testimonials</p>
+        <h2 class="section-title">What our clients say</h2>
+      </div>
+
+      <div class="slider reveal">
+        <!-- Add or remove .slide blocks; the slider adjusts automatically -->
+        <div class="slide active">
+          <p>"Their strategy helped us double our revenue in just 8 months. Professional, honest and very practical."</p>
+          <h4>Rahul Mehta</h4><span>Founder, TechNova</span>
+        </div>
+        <div class="slide">
+          <p>"They fixed our operations and saved us a lot of cost. I recommend them to every business owner."</p>
+          <h4>Priya Shah</h4><span>Director, GreenLeaf Foods</span>
+        </div>
+        <div class="slide">
+          <p>"Clear communication and real results. The financial advice was a game changer for us."</p>
+          <h4>Amit Patel</h4><span>CEO, BuildRight Infra</span>
+        </div>
+
+        <div class="dots"></div> <!-- dots are created automatically by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA BAND ===================== -->
+  <section class="cta">
+    <div class="container cta-inner">
+      <h2>Ready to grow your business?</h2>
+      <a href="#contact" class="btn btn-dark">Get Started Today</a>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" class="section">
+    <div class="container contact-grid">
+
+      <!-- Contact details: edit text here -->
+      <div class="contact-info reveal">
+        <p class="eyebrow">Contact Us</p>
+        <h2 class="section-title">Let's talk about your business</h2>
+        <p>Fill in the form and we will get back to you within 24 hours.</p>
+
+        <ul class="info-list">
+          <li><i class="fa-solid fa-location-dot"></i> 123 Business Park, Ahmedabad, Gujarat, India</li>
+          <li><i class="fa-solid fa-phone"></i> +91 98765 43210</li>
+          <li><i class="fa-solid fa-envelope"></i> hello@apexconsulting.com</li>
+          <li><i class="fa-solid fa-clock"></i> Mon - Sat: 10:00 AM - 7:00 PM</li>
+        </ul>
+      </div>
+
+      <!-- Contact form: validation is handled in script.js -->
+      <form id="contact-form" class="contact-form reveal" novalidate>
+        <div class="form-group">
+          <input type="text" id="name" name="name" placeholder="Your Name">
+          <small class="error"></small>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" name="email" placeholder="Your Email">
+          <small class="error"></small>
+        </div>
+        <div class="form-group">
+          <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+          <small class="error"></small>
+        </div>
+        <div class="form-group">
+          <select id="service" name="service">
+            <option value="">Select a Service</option>
+            <option>Business Strategy</option>
+            <option>Operations Improvement</option>
+            <option>Financial Advisory</option>
+            <option>Marketing &amp; Sales</option>
+            <option>Team &amp; Leadership</option>
+            <option>Digital Transformation</option>
+          </select>
+          <small class="error"></small>
+        </div>
+        <div class="form-group">
+          <textarea id="message" name="message" rows="4" placeholder="How can we help you?"></textarea>
+          <small class="error"></small>
+        </div>
+        <button type="submit" class="btn btn-full">Send Message</button>
+        <p id="form-status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <div class="container footer-inner">
+      <a href="#home" class="logo">Apex<span>.</span>Consulting</a>
+      <p>&copy; <span id="year"></span> Apex Consulting. All rights reserved.</p>
+      <div class="socials">
+        <!-- Replace # with your social profile links -->
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- jQuery (CDN) then our script -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
